@@ -1,0 +1,25 @@
+# Node
+**/node_modules/
+**/package-lock.json
+
+# Android/Java
+**/.gradle/
+**/build/
+**/local.properties
+**/*.iml
+**/.idea/
+*.keystore
+*.apk
+*.aab
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+
+# OneDrive temp
+~$*
+
+# Symbiotic_City website (not needed for Android)
+Symbiotic_City/
