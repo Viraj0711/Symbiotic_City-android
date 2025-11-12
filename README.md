@@ -4,7 +4,7 @@ Android application and dedicated backend for Symbiotic City sustainability plat
 
 ## 📱 Project Structure
 
-```
+```text
 SymbioticApp/
 ├── android-backend/     # Node.js/Express backend (port 3002)
 ├── SymbioticCityApp/    # Android app (Kotlin, MVVM)
@@ -19,13 +19,13 @@ SymbioticApp/
 
 cd android-backend
 
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Create `.env` file (already configured):
+1. Create `.env` file (already configured):
 
 ```env
 PORT=3002
@@ -34,7 +34,7 @@ JWT_SECRET=9Aj1Txenum7CuFz2Eum+lajzqRfcuQSOtboczT+XeW9SuYdkRHJOIRQI68XyKGvUHm/ZO
 NODE_ENV=development
 ```
 
-4. Start the server:
+1. Start the server:
 
 ```bash
 node server.js
@@ -46,11 +46,11 @@ Or double-click `START.bat` on Windows.
 
 1. Open `SymbioticCityApp` in Android Studio
 
-2. Update API endpoint in `RetrofitClient.kt` if needed:
+1. Update API endpoint in `RetrofitClient.kt` if needed:
    - Emulator: `http://10.0.2.2:3002/api/`
    - Physical device: `http://YOUR_IP:3002/api/`
 
-3. Build and run the app
+1. Build and run the app
 
 ## 🎨 Features
 
